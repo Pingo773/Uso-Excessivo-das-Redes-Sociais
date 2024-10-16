@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Corpo do site */
+body{
+    background-color: #035f97;
+    background-image: url(Background\ Definitivo.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    color: aliceblue;
+}
+
+/* Barra de navegação */
+body header nav{
+    background-color: #04080ce6;
+    width: 100%;
+    position: fixed;
+    
+}
+
+/* Lista da barra de navegação */
+body header nav ol{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* Elementos da lista */
+body header nav ol li{
+    display: flex;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* Seções na barra de navegação */
+body header nav ol li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Detalhe ao passar o mouse na barra */
+body header nav ol li a:hover{
+    cursor: pointer;
+    color: rgb(0, 226, 0);
+    font-size: 130%;
+}
+
+
+/* Titulo */
+h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 50%;
+    font-size: 200%;
+    background-color: #004d7cf5;
+    border-radius: 8px;  
+    
+}
+
+/* Primeira imagem */
+.imagem{
+    text-align: center;
+}
+/* Primeira imagem */
+.imagem img{
+    width: 50%;
+    border: 2px #b1b1b1 solid;
+    border-radius: 15px;
+}
+
+/* Titulo das seções */
+h2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 40%;
+    /* background-color: #004d7cf5; */
+    border-radius: 8px;  
+    text-shadow: 2px 3px 2px black;
+}
+
+/* Formatação para os paragrafos */
+p{
+    background-color: #004d7cf5;
+    border-radius: 10px;
+    border: 2px rgb(185, 185, 185) solid;
+    padding: 5px;
+    line-height: 1.5em;
+    /* width: 50%; */
+    margin: auto;
+    font-size: 25px;
+
+}
+
+
+.introducao{
+    width: 80%;
+    border: none;
+}
+
+/* Lista das consequencias */
+.lista{
+    text-align: start;
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+    line-height: 2rem;
+    font-size: 130%;
+}
+
+
+.list{
+    background-color: #004d7cf5;
+    border: 2px #ccc1ad solid;
+    border-radius: 10px;
+    padding: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.lista h3{
+    font-size: 150%;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Margem das seções */
+.seções section{
+    margin-bottom: 110px;
+}
+
+/* Seção problemas */
+.ProblemasImg{
+    background-color: #004d7cf5;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+
+.ProblemasImg p{
+    font-size: 150%;
+    border: none;
+}
+
+.ProblemasImg img{
+    width: 80%; 
+    border-radius: 7px;
+    /* border: 2px white solid; */
+}
+
+/* Tabela */
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    
+    justify-content: center;
+}
+
+/* Elementos da tabela */
+table, th, td {
+    border: 3px solid #5774c5;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(90, 149, 197, 0.849);
+}
+
+td{
+    color: rgb(248, 248, 248);
+    text-shadow: 2px 2px black;
+}
+
+/* Detalhe ao passar o mouse nas celulas */
+td:hover{
+    cursor: cell;
+    background-color: #002fff;
+}
+
+th{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+/* Formulario */
+form{
+    background-color: #004d7cf5;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border: #ccc1ad 2px solid;
+}
+
+#formulario form label{
+    font-size: 120%;
+    text-shadow: 2px 2px black;
+}
+
+#formulario form input{
+    border-radius: 5px;
+    height: 27px;
+}
+
+
+
+
+/* Formatação do botão */
+button{
+    background-color: #0227c9a4;
+    color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 120%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px white solid;
+}
+
+/* Detalhe do botão ao passar o mouse */
+button:hover{
+    cursor: pointer;
+    background-color: #002fff;
+}
+
+
+
+
+/* Footer */
+footer{
+    background-color: rgb(21, 24, 36);
+    color: aliceblue;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+ 
+}
+
+/* Responsividade */
+@media (max-width: 768px){
+    form{
+        width: 70%;
+    }
+    
+
+    table{
+        width: 80%;
+    }
+
+    .ProblemasImg{
+        width: 80%;
+    }
+
+    .lista{
+        width: 80%;
+    }
+
+    .imagem img{
+        width: 80%;
+    }
+
+    h1{
+        width: 90%;
+    }
+
+    h2{
+        width: 90%;
+    }
+
+    body header nav{
+        height: 8%;
+        align-content: center;
+    }
+}
